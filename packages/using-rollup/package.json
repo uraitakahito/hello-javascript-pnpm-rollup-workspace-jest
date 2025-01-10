@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup --config",
+    "watch": "rollup --config --watch",
+    "cleandep": "rm -rf node_modules dist"
   },
   "keywords": [],
   "author": "",
