@@ -6,4 +6,5 @@
 % pnpm install
 % pnpm -r build
 % pnpm -F "*" build
+% pnpm -r test
 ```
