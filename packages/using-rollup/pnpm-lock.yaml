@@ -14,6 +14,15 @@ importers:
       '@rollup/plugin-terser':
         specifier: ^0.4.4
         version: 0.4.4(rollup@4.30.1)
+      '@uraitakahito/hello-commonjs':
+        specifier: ^1.0.8
+        version: 1.0.8
+      '@uraitakahito/hello-conditional-exports':
+        specifier: ^1.0.1
+        version: 1.0.1
+      '@uraitakahito/hello-esmodule':
+        specifier: ^1.0.2
+        version: 1.0.2
       rollup:
         specifier: ^4.30.1
         version: 4.30.1
@@ -171,6 +180,15 @@ packages:
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
+
+  '@uraitakahito/hello-commonjs@1.0.8':
+    resolution: {integrity: sha512-RUKEwps2GvyToer6mHnMTTA+jPT/uqNY0JE2DdBMet+WycN+GM5tDm+PbMNYGZAGwb5fHAfO2pueodPH+787OA==}
+
+  '@uraitakahito/hello-conditional-exports@1.0.1':
+    resolution: {integrity: sha512-dY90sH2mR7fyTYtGiw0FtRyzhEZjv5R5t54Q8giPqpKJzobdoVCvToliU0VQRFRR7JinGtZGFP9v5vx58evedg==}
+
+  '@uraitakahito/hello-esmodule@1.0.2':
+    resolution: {integrity: sha512-rBvC8rFBMIIUzVNnGLTD7tW3+1xyPCwVPIoiVlkrGt9ueTC01GLJR/TIc+Ihz5L+zIwRhFfBna31vsDnJHZyyQ==}
 
   acorn@8.14.0:
     resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
@@ -386,6 +404,12 @@ snapshots:
   '@types/estree@1.0.6': {}
 
   '@types/resolve@1.20.2': {}
+
+  '@uraitakahito/hello-commonjs@1.0.8': {}
+
+  '@uraitakahito/hello-conditional-exports@1.0.1': {}
+
+  '@uraitakahito/hello-esmodule@1.0.2': {}
 
   acorn@8.14.0: {}
 
